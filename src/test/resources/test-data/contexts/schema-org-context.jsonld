@@ -1,0 +1,212 @@
+{"@context": {
+    "id": "@id",
+    "type": {
+        "@id": "@type",
+        "@container": "@set"
+    },
+    "language": "@language",
+    "inLanguage": "http://schema.org/inLanguage",
+    "workExample": {
+        "@type": "@id",
+        "@id": "http://schema.org/workExample",
+        "@container": "@set"
+    },
+    "exampleOfWork": {
+        "@type": "@id",
+        "@id": "http://schema.org/exampleOfWork",
+        "@container": "@set"
+    },
+    "translationOfWork": {
+        "@type": "@id",
+        "@id": "http://schema.org/translationOfWork"
+    },
+    "workTranslation": {
+        "@type": "@id",
+        "@id": "http://schema.org/workTranslation",
+        "@container": "@set"
+    },
+    "name": {
+        "@id": "http://schema.org/name",
+        "@container": "@language"
+    },
+    "basicName": {
+        "@id": "http://schema.org/name"
+    },
+    "givenName": {
+        "@id": "http://schema.org/givenName"
+    },
+    "familyName": {
+        "@id": "http://schema.org/familyName"
+    },
+    "description": {
+        "@id": "http://schema.org/description",
+        "@container": "@language"
+    },
+    "caption": {
+        "@id": "http://schema.org/caption",
+        "@container": "@language"
+    },
+    "copyrightYear": {
+        "@id": "http://schema.org/copyrightYear",
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear"
+    },
+    "thumbnailUrl": {
+        "@type": "@id",
+        "@id": "http://schema.org/thumbnailUrl"
+    },
+    "transcript": {
+        "@type": "@id",
+        "@id": "http://schema.org/transcript"
+    },
+    "hasPart": {
+        "@type": "@id",
+        "@id": "http://schema.org/hasPart",
+        "@container": "@set"
+    },
+    "isPartOf": {
+        "@type": "@id",
+        "@id": "http://schema.org/isPartOf",
+        "@container": "@set"
+    },
+    "audience": {
+        "@type": "@id",
+        "@id": "http://schema.org/audience",
+        "@container": "@set"
+    },
+    "author": {
+        "@type": "@id",
+        "@id": "http://schema.org/author",
+        "@container": "@set"
+    },
+    "isFamilyFriendly": {
+        "@id": "http://schema.org/isFamilyFriendly",
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "accessibilityFeature": {
+        "@type": "@id",
+        "@id": "http://schema.org/accessibilityFeature",
+        "@container": "@set"
+    },
+    "accessibilityControl": {
+        "@type": "@id",
+        "@id": "http://schema.org/accessibilityControl",
+        "@container": "@set"
+    },
+    "accessibilityHazard": {
+        "@type": "@id",
+        "@id": "http://schema.org/accessibilityHazard",
+        "@container": "@set"
+    },
+    "accessibilityAPI": {
+        "@type": "@id",
+        "@id": "http://schema.org/accessibilityAPI",
+        "@container": "@set"
+    },
+    "height": {
+        "@id": "http://schema.org/height",
+        "@type": "http://www.w3.org/2001/XMLSchema#positiveInteger"
+    },
+    "width": {
+        "@id": "http://schema.org/width",
+        "@type": "http://www.w3.org/2001/XMLSchema#positiveInteger"
+    },
+    "contentLocation": {
+        "@type": "@id",
+        "@id": "http://schema.org/contentLocation"
+    },
+    "duration": {
+        "@id": "http://schema.org/duration",
+        "@type": "http://www.w3.org/2001/XMLSchema#duration"
+    },
+    "dateCreated": {
+        "@id": "http://schema.org/dateCreated",
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "dateModified": {
+        "@id": "http://schema.org/dateModified",
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "timeRequired": {
+        "@id": "http://schema.org/timeRequired",
+        "@type": "http://www.w3.org/2001/XMLSchema#duration"
+    },
+    "format": "http://schema.org/fileFormat",
+    "about": {
+        "@type": "@id",
+        "@id": "http://schema.org/about",
+        "@container": "@set"
+    },
+    "text": {
+        "@id": "http://schema.org/text",
+        "@container": "@language"
+    },
+    "contentSize": {
+        "@id": "http://schema.org/contentSize",
+        "@type": "http://www.w3.org/2001/XMLSchema#positiveInteger"
+    },
+    "productID": {
+        "@id": "http://schema.org/productID"
+    },
+    "isbn": {
+        "@id": "http://schema.org/isbn"
+    },
+    "bookEdition": {
+        "@id": "http://schema.org/bookEdition"
+    },
+    "volumeNumber": {
+        "@id": "http://schema.org/volumeNumber"
+    },
+    "position": {
+       "@id": "http://schema.org/position",
+       "@type": "http://www.w3.org/2001/XMLSchema#integer"
+   	},
+    "geographicArea": {
+       "@id": "http://schema.org/geographicArea",
+       "@type": "@id"
+    },
+    "containsPlace": {
+       "@id": "http://schema.org/containsPlace",
+       "@type": "@id",
+       "@container": "@set"
+    },
+    "containedInPlace": {
+       "@id": "http://schema.org/containedInPlace",
+       "@type": "@id",
+       "@container": "@set"
+    },
+    "availableChannel": {
+       "@id": "http://schema.org/availableChannel",
+       "@type": "@id",
+       "@container": "@set"
+    },
+    "serviceUrl": {
+       "@id": "http://schema.org/serviceUrl",
+       "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+    },
+    "creator": {
+        "@id": "http://schema.org/creator",
+        "@type": "@id",
+        "@container": "@set"
+    },
+    "pageStart" : "http://schema.org/pageStart",
+    "pageEnd": "http://schema.org/pageEnd",
+    "MediaObject": "http://schema.org/MediaObject",
+    "ImageObject": "http://schema.org/ImageObject",
+    "AudioObject": "http://schema.org/AudioObject",
+    "VideoObject": "http://schema.org/VideoObject",
+    "Person": "http://schema.org/Person",
+    "CreativeWork": "http://schema.org/CreativeWork",
+    "Book": "http://schema.org/Book",
+    "PublicationVolume": "http://schema.org/PublicationVolume",
+    "Thing": "http://schema.org/Thing",
+    "Audience": "http://schema.org/Audience",
+    "EducationalAudience": "http://schema.org/EducationalAudience",
+    "AdministrativeArea": "http://schema.org/AdministrativeArea",
+    "Country": "http://schema.org/Country",
+    "ServiceChannel": "http://schema.org/ServiceChannel",
+    "Intangible": "http://schema.org/Intangible"
+}}

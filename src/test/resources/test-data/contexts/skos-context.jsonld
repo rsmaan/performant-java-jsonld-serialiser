@@ -1,0 +1,115 @@
+{
+  "@context": {
+    "id": "@id",
+    "type": {
+        "@id": "@type",
+        "@container": "@set"
+    },
+    "language": "@language",
+    "note": "http://www.w3.org/2004/02/skos/core#note",
+    "scopeNote": "http://www.w3.org/2004/02/skos/core#scopeNote",
+    "definition": "http://www.w3.org/2004/02/skos/core#definition",
+    "example": {
+        "@id": "http://www.w3.org/2004/02/skos/core#example",
+        "@container": "@language"
+    },
+    "member": {
+        "@id": "http://www.w3.org/2004/02/skos/core#member",
+        "@type": "@id"
+    },
+    "memberList": {
+        "@id": "http://www.w3.org/2004/02/skos/core#memberList",
+        "@type": "@id",
+        "@container": "@list"
+    },
+    "notation": "http://www.w3.org/2004/02/skos/core#notation",
+    "prefLabel": {
+        "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+        "@container": "@language"
+    },
+    "altLabel": {
+        "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+        "@container": "@language"
+    },
+    "hiddenLabel": {
+        "@id": "http://www.w3.org/2004/02/skos/core#hiddenLabel",
+        "@container": "@language"
+    },
+    "narrower": {
+        "@id": "http://www.w3.org/2004/02/skos/core#narrower",
+        "@type": "@id",
+        "@container": "@set"
+    },
+    "broader": {
+        "@id": "http://www.w3.org/2004/02/skos/core#broader",
+        "@type": "@id",
+        "@container": "@set"
+    },
+    "related": {
+        "@id": "http://www.w3.org/2004/02/skos/core#related",
+        "@type": "@id",
+        "@container": "@set"
+    },
+    "broadMatch": {
+        "@id": "http://www.w3.org/2004/02/skos/core#broadMatch",
+        "@type": "@id",
+        "@container": "@set"
+    },
+    "narrowMatch": {
+        "@id": "http://www.w3.org/2004/02/skos/core#narrowMatch",
+        "@type": "@id",
+        "@container": "@set"
+    },
+    "closeMatch": {
+        "@id": "http://www.w3.org/2004/02/skos/core#closeMatch",
+        "@type": "@id",
+        "@container": "@set"
+    },
+    "exactMatch": {
+        "@id": "http://www.w3.org/2004/02/skos/core#exactMatch",
+        "@type": "@id",
+        "@container": "@set"
+    },
+    "relatedMatch": {
+        "@id": "http://www.w3.org/2004/02/skos/core#relatedMatch",
+        "@type": "@id",
+        "@container": "@set"
+    },
+    "inScheme": {
+        "@id": "http://www.w3.org/2004/02/skos/core#inScheme",
+        "@type": "@id",
+        "@container": "@set"
+    },
+    "topConceptOf": {
+        "@id": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+        "@type": "@id",
+        "@container": "@set"
+    },
+    "topConcept": {
+        "@id": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+        "@type": "@id",
+        "@container": "@set"
+    },
+    "narrowerTransitive": {
+            "@id": "http://www.w3.org/2004/02/skos/core#narrowerTransitive",
+            "@type": "@id",
+            "@container": "@set"
+    },
+    "broaderTransitive": {
+                "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+                "@type": "@id",
+                "@container": "@set"
+    },
+    "editorialNote": {
+        "@id": "http://www.w3.org/2004/02/skos/core#editorialNote",
+        "@type": "@id",
+        "@container": "@set"
+    },
+    "ConceptScheme": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+    "Concept": "http://www.w3.org/2004/02/skos/core#Concept",
+    "Collection": "http://www.w3.org/2004/02/skos/core#Collection",
+    "OrderedCollection": "http://www.w3.org/2004/02/skos/core#OrderedCollection",
+    "mappingRelation": "http://www.w3.org/2004/02/skos/core#mappingRelation",
+    "semanticRelation": "http://www.w3.org/2004/02/skos/core#semanticRelation"
+  }
+}
